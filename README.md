@@ -255,20 +255,5 @@ Tests verify:
 6. Verify remaining balance = 7 units
 7. Confirm valuation rate remains 106.67
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-© X Electronics | Developed using Frappe/ERPNext
+## To Run the Tests:
+ bench --site mysite run-tests --module navari.navari.stock_management.tests.test_stock_ledger

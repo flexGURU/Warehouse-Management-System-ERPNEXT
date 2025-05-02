@@ -91,7 +91,6 @@ class TestStatelessStockLedger(unittest.TestCase):
                 "warehouse": "_Test Stateless Warehouse - _C",
             },
         )
-        print(f"Number of SLEs found: {sle_count}")
 
         # Check valuation rate
         rate1 = get_moving_average_rate(
@@ -159,7 +158,6 @@ class TestStatelessStockLedger(unittest.TestCase):
             balance2, 7, "Stock balance should be 7 units after consumption"
         )
 
-        # Valuation rate should remain the same after consumption
         rate3 = get_moving_average_rate(
             "_Test Stateless Item", "_Test Stateless Warehouse - _C"
         )
