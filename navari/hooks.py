@@ -132,13 +132,13 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+    "Stock Entry": {
+        "on_submit": "navari.navari.stock_management.stock_ledger.create_ledger_entries",
+        "on_cancel": "navari.navari.stock_management.stock_ledger.delete_ledger_entries",
+        # "on_trash": "method"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
@@ -236,4 +236,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
