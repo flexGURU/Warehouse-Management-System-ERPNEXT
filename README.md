@@ -2,8 +2,9 @@
 
 A custom stock management system built on Frappe/ERPNext that implements stateless stock ledger entries with moving average valuation.
 
-[Video Demo]("https://drive.google.com/file/d/1IJFIk3mHwLfvUacPbH5VeoJuWe2NlbRk/view?usp=sharing")
-# Please Checkout the vide here: 
+# Please Checkout the vide here:  
+[Video Demo](https://drive.google.com/file/d/1IJFIk3mHwLfvUacPbH5VeoJuWe2NlbRk/view?usp=sharing)
+
 
 ## 📋 Table of Contents
 
